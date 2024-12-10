@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    /* Linting */
+    //    "strict": true,
+    //    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    //    "noFallthroughCasesInSwitch": true
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "helpers/*": [
+        "src/helpers/*"
+      ],
+      "public/*": [
+        "public/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "suka/*": [
+        "vuePage/src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "src/**/*.jsx"
+  ]
+}

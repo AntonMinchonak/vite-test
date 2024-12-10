@@ -1,0 +1,11 @@
+{
+  "alias": {
+    "~": "",
+    "@": "./src",
+    "helpers": "./src/helpers", 
+    "public": "./public",
+    "components": "./src/components",
+    "suka": "./vuePage/src"
+},
+  "extensions": [".js", ".ts", ".json", ".jsx"]
+}
